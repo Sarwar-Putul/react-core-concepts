@@ -121,7 +121,7 @@ function Users(){
         <div>
             <h3>Dynamic Users: {users.length}</h3>
                <ul>
-                   {console.log(users)}
+                   {/* {console.log(users)} */}
                    {
                        users.map(user => <li>{user.name} = {user.phone}</li>)
                    }
